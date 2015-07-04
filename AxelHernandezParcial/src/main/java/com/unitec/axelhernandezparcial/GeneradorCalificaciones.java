@@ -13,6 +13,22 @@ import java.util.List;
  */
 public class GeneradorCalificaciones {
         
+    
+    ArrayList evaluacion = new ArrayList ();
+            evaluacion.add("Petra");
+            evaluacion.add (5.8) ;
+            
+            evaluacion.add("José") ;
+            evaluacion.add (7.4);
+            
+            evaluacion.add("Roberta");
+            evaluacion.add (8.6);
+            
+            return evaluacion ;
+    }
+    
+
+
     try {
             List<Generador> evaluacion =evv.Evaluacion();
             

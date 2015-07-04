@@ -36,6 +36,10 @@ public class Evaluacion implements Serializable{
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+
+    void setCalificacion(String generarcalificaciones) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     
     

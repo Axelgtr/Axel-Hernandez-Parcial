@@ -27,11 +27,12 @@ public class ServletEvaluacion extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
                Evaluacion e=new Evaluacion ();
         String Ana = null;
+        String generarcalificaciones = null;
         
         String Nombre = generarcalificaciones ;
           e.setNombre(getInitParameter(Nombre));
