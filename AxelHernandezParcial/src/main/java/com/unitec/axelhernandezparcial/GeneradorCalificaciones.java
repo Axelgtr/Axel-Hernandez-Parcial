@@ -5,10 +5,30 @@
  */
 package com.unitec.axelhernandezparcial;
 
+import java.util.List;
+
 /**
  *
  * @author T-107
  */
 public class GeneradorCalificaciones {
+        
+    try {
+            List<Generador> evaluacion =evv.Evaluacion();
+            
+            out.println(mapper.writeValueAsString(Evaluacion)); 
+            
+        } catch (Exception ex) {
+        
+        }
+        
+        
+    }
+
+
+
+
+
+
     
 }

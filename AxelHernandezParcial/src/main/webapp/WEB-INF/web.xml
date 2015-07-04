@@ -13,6 +13,10 @@
         <servlet-name>GeneradorCalificaciones</servlet-name>
         <servlet-class>com.unitec.axelhernandezparcial.GeneradorCalificaciones</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ServletEvaluacion</servlet-name>
+        <servlet-class>com.unitec.axelhernandezparcial.ServletEvaluacion</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ServletExamen</servlet-name>
         <url-pattern>/ServletExamen</url-pattern>
@@ -24,6 +28,10 @@
     <servlet-mapping>
         <servlet-name>GeneradorCalificaciones</servlet-name>
         <url-pattern>/GeneradorCalificaciones</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletEvaluacion</servlet-name>
+        <url-pattern>/ServletEvaluacion</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

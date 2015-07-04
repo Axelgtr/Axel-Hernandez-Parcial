@@ -1,2 +1,6 @@
 CREATE TABLE CALIFICACIONES (NOMBRE VARCHAR(20), CALIFICACION INTEGER);
                    
+
+
+
+SELECT * FROM calificaciones;
